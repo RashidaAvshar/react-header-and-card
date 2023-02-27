@@ -1,8 +1,9 @@
 import Header from "./components/Header.jsx";
 import Card from "./components/Card.jsx";
 import {data} from "./mockdata";
-import Button from "./components/Button.jsx";
+// import Button from "./components/Button.jsx";
 import Counter from "./components/Counter.jsx";
+import Form from "./components/Form.jsx";
 
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
         </div> */}
         <Counter/>
         {/* <Button/> */}
+
+        <Form/>
 
     </div>
   );
