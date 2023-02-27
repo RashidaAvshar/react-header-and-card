@@ -15,7 +15,7 @@ const Counter = () =>{
         }        
     };
 
-    return <div>
+    return <div className="button">
         <Button onClick={increment} title="+" className="primary"/> 
         <p style={{marginTop:"30px", marginBottom: "30px"}}>{count}</p>
         <Button onClick={decrement} title="-" className="secondary"/> 
